@@ -26,14 +26,16 @@ li{
     left: 0%;
     bottom: 0%;
     z-index: -1;
-    padding: 1%;
+    padding: 2%;
     background-color:rgb(146, 5, 111) ;
     
 }
 
 .nav-item a{
     color: white!important;
-    font-weight: 400;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .nav-item:hover{
@@ -48,7 +50,7 @@ li{
 
 .section-form{
     padding:2% 10% 0 10%;
-    background-image: linear-gradient(to bottom, rgb(238, 123, 209),rgb(146, 5, 111,0.2));
+    background-image: linear-gradient(to bottom, rgb(240, 97, 204),rgba(241, 7, 183, 0.2));
     height:450px;
     width: 520px;
     border-radius: 10px;
@@ -125,13 +127,13 @@ li{
 
 #transfer_button{
     padding: 0 7px 0 7px;
-    border-radius: 20px;
+    border-radius: 0px;
     background-color: rgb(146, 5, 111);
 }
 
 #transfer_button:hover{
     box-shadow:3px 4px black;
-    border-radius: 20px;
+    border-radius: 2px;
     transform: translateY(-2px);
 }
 
@@ -144,7 +146,7 @@ li{
 /******************************** Transfer.php ***************************************/
 .chapterCard{
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(238, 123, 209),rgba(150, 56, 126, 0.2));
+    background-image: linear-gradient(to bottom, rgb(240, 97, 204),rgba(241, 7, 183, 0.2));;
     padding: 4%;
 }
 
@@ -174,7 +176,7 @@ input, textarea{
 
 #submit_money:hover{
     box-shadow: 2px 3px black;
-    transform: translateY(-2%);
+    transform: translateY(-3%);
     font-weight: bold;
 }
 

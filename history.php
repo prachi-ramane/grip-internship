@@ -16,6 +16,7 @@
             echo '<div id="table_align" class="table-responsive">  
             <table id="itable" class="table table-bordered" >  
                 <tr> 
+                    <th>Transaction ID</th>
                     <th>Sender</th>
                     <th>Receiver</th>  
                     <th>Amount</th>  
@@ -29,6 +30,7 @@
                     $result = mysqli_query($connect, $sql);  
                     while($row = mysqli_fetch_array($result)){
                         $output .= '<tr>
+                                    <td>'.$row["id"].'</td>  
                                     <td>'.$row["from_customer"].'</td>  
                                     <td>'.$row["to_customer"].'</td>  
                                     <td>'.$row["amount"].'</td> 

@@ -48,7 +48,8 @@
                         <div class="col-lg-6">
                             <div class="card chapterCard" style="margin:35% 0 0 5%">
                                 <div class="card-body" >
-                                <h3 class="text-center" style="margin:4%" >Payment Details</h3><hr>
+                                <h3 class="text-center" style="margin:3%" >Payment Details</h3><hr>
+                                <p class="text-center">Transaction ID :<?php echo $row['id'];?></p><hr>
                                     <form>
                                         <div class="form-group">
                                             <label class=" col-lg-4">Sender :</label>
@@ -101,6 +102,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
         <link rel="stylesheet" href="css/main.css">
         <title>Bank Management System</title>
     </head>
